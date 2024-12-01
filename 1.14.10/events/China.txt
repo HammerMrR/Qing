@@ -1,0 +1,112 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = chinaa
+
+country_event = {     
+	id = chinaa.1
+	title = chinaa.1.t
+	desc = chinaa.1.d
+	picture = GFX_report_event_tur_soviets
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = chinaa.1.a
+		ai_chance = { factor = 100 }
+		complete_national_focus = help_the_colapsing_empire
+		}
+	option = {
+		name = chinaa.1.b
+		ai_chance = { factor = 0 }
+		complete_national_focus = end_the_qing_faster
+	}
+}
+
+country_event = {     
+	id = chinaa.2
+	title = chinaa.2.t
+	desc = chinaa.2.d
+	picture = GFX_report_event_tur_soviets
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = chinaa.2.a
+		ai_chance = { factor = 100 }
+		602 = {
+		set_demilitarized_zone = yes
+		}
+		
+		}
+	
+}
+
+country_event = {     
+	id = chinaa.3
+	title = chinaa.3.t
+	desc = chinaa.3.d
+	picture = GFX_report_event_tur_soviets
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = chinaa.3.a
+		ai_chance = { factor = 100 }
+		705 = {
+		set_demilitarized_zone = yes
+		605 = {
+		set_demilitarized_zone = yes
+		748 = {
+		set_demilitarized_zone = yes
+		603 = {
+		set_demilitarized_zone = yes
+		
+		}
+		
+		}
+
+		}	
+}
+	}
+		}
+country_event = {     
+	id = chinaa.4
+	title = chinaa.4.t
+	desc = chinaa.4.d
+	picture = GFX_report_event_tur_soviets
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = chinaa.4.a
+		ai_chance = { factor = 100 }
+		Set_cosmetic_tag = Chi_christ_wtf
+		
+		}
+	
+
+
+		}
+
+country_event = {     
+	id = chinaa.5
+	title = chinaa.5.t
+	desc = chinaa.5.d
+	picture = GFX_report_event_tur_soviets
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = chinaa.5.a
+		ai_chance = { factor = 100 }
+		complete_national_focus = Contyni_tradysions
+		}
+	option = {
+		name = chinaa.5.b
+		ai_chance = { factor = 0 }
+		complete_national_focus = Start_modernaz
+	}
+}
+

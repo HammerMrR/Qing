@@ -1,0 +1,345 @@
+ideas = {
+country = {
+		low_legit = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				stability_factor = -0.05
+			 political_power_gain = -0.05
+			command_power_gain_mult = -0.15
+			}
+
+		}
+boxer_protocal = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				recruitable_population_factor = -0.5
+				training_time_factor = 0.1
+				mobilization_speed = -0.1
+			}
+
+		}
+
+Beiyang_Army = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				max_dig_in_factor = 0.1
+				land_doctrine_cost_factor = 0.1
+				army_speed_factor = -0.1
+				army_org_factor = -0.1
+				org_loss_when_moving = 0.15
+			}
+
+		}
+
+det_chi = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+         industrial_capacity_factory = -0.05 
+		production_speed_buildings_factor = -0.5 	
+		consumer_goods_factor = 0.60	
+			industry_repair_factor = -0.3
+			}
+
+		}
+
+christian_opo = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+		consumer_goods_factor = 0.10	
+		recruitable_population_factor = -0.05
+	    political_power_gain = -0.05
+			}
+
+		}
+
+christian_opo_gav = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+		consumer_goods_factor = 0.05	
+		recruitable_population_factor = -0.05
+	    political_power_gain = -0.05
+			}
+
+		}
+
+opo_1 = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+		consumer_goods_factor = 0.05	
+	    political_power_gain = -0.05
+			}
+
+		}
+
+opo_2 = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+		command_power_gain_mult = -0.15
+		recruitable_population_factor = -0.05
+	    political_power_gain = -0.05
+			}
+
+		}
+
+enemy_arms = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				land_doctrine_cost_factor = 0.1
+				army_speed_factor = -0.1
+				army_org_factor = -0.1
+			}
+
+		}
+
+enemy_null = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				land_doctrine_cost_factor = 0.1
+				consumer_goods_factor = 0.05
+				 political_power_gain = -0.05
+			}
+
+		}
+
+new_start = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+				stability_factor = 0.05
+			 political_power_gain = 0.05
+			consumer_goods_factor = -0.05
+			}
+
+		}
+
+det_chi_smoler = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+         industrial_capacity_factory = -0.04 
+		production_speed_buildings_factor = -0.4 	
+		consumer_goods_factor = 0.40	
+			industry_repair_factor = -0.1
+			}
+
+		}
+
+mono_regf = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+         stability_weekly = 0.0025
+			 political_power_gain = 0.05
+			}
+
+		}
+
+det_chi_smoler = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+         industrial_capacity_factory = -0.04 
+		production_speed_buildings_factor = -0.4 	
+		consumer_goods_factor = 0.40	
+			industry_repair_factor = -0.1
+			}
+
+		}
+
+demo_regf = {
+
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_goods_red_bonus
+
+			modifier = {
+         consumer_goods_factor = -0.05
+			recruitable_population_factor = 0.05
+			}
+
+		}
+
+
+
+
+
+
+
+
+
+}
+}
+
+		
